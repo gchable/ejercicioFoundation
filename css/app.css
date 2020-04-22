@@ -1,0 +1,27 @@
+.button-group .button {
+    margin-right: 1px !important;
+}
+
+.breadcrumbs{
+    font-size: .6875rem;;
+}
+
+.breadcrumbs a:not(:last-child):after{
+    content: " / ";
+    margin: 0 .75rem;
+    color: gray;
+}
+img {
+    object-fit: cover;
+    height: 129px;
+    max-height: 129px;
+    transition: box-shadow .5s;
+}
+.secondary{
+    background-color: lightblue !important;
+}
+
+img:hover{
+    box-shadow: 2px 2px 4px 2px #2ba6cb,
+                -2px -2px 4px 2px #2ba6cb;
+}
